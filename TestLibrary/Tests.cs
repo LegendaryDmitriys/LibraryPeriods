@@ -8,6 +8,7 @@ namespace TestLibrary
     public class Tests
     {
         [Test]
+        // Тест для случая, когда консультации отсутствуют. Ожидается полный рабочий день.
         public void AvailablePeriods_NoConsultations_ReturnsFullWorkingDay()
         {
             TimeSpan[] startTimes = { };
@@ -22,7 +23,8 @@ namespace TestLibrary
         }
 
         [Test]
-        public void AvailablePeriods_SingleConsultation_ReturnsCorrectResult()
+        // Тест для случая с единственной консультацией.
+        public void AvailablePeriods_SingleConsultation()
         {
             TimeSpan[] startTimes = { new TimeSpan(10, 0, 0) };
             int[] durations = { 30 };
@@ -36,7 +38,8 @@ namespace TestLibrary
         }
         
         [Test]
-        public void AvailablePeriods_ConsultationsInMorning_ReturnsCorrectResult()
+        // Тест для случая с консультациями утром.
+        public void AvailablePeriods_ConsultationsInMorning()
         {
             TimeSpan[] startTimes = { new TimeSpan(9, 30, 0), new TimeSpan(10, 0, 0), new TimeSpan(11, 0, 0) };
             int[] durations = { 30, 30, 60 };
@@ -50,6 +53,7 @@ namespace TestLibrary
         }
         
         [Test]
+        // Тест для случая без рабочих часов. Ожидается отсутствие доступных периодов.
         public void AvailablePeriods_NoWorkingHours_NoAvailablePeriods()
         {
             TimeSpan beginWorkingTime = new TimeSpan(9, 0, 0);
@@ -62,6 +66,7 @@ namespace TestLibrary
         }
         
         [Test]
+        // Тест для случая записи на конец рабочего дня. Ожидается отсутствие доступных периодов.
         public void AvailablePeriods_AppointmentAtTheEndOfTheDay_NoAvailablePeriods()
         {
             TimeSpan[] startTimes = { new TimeSpan(16, 30, 0) };
@@ -75,6 +80,7 @@ namespace TestLibrary
         }
         
         [Test]
+        // Тест для случая нескольких коротких консультаций между длинными. Ожидаются промежутки в расписании.
         public void AvailablePeriods_MultipleShortAppointmentsBetweenLongAppointments_GapsInSchedule()
         {
             TimeSpan[] startTimes = { new TimeSpan(10, 0, 0), new TimeSpan(11, 0, 0), new TimeSpan(12, 0, 0), new TimeSpan(13,0,0) };
@@ -89,7 +95,8 @@ namespace TestLibrary
         }
         
         [Test]
-        public void AvailablePeriods_AppointmentsAtIrregularIntervals_GapsInSchedule()
+        // Тест для случая консультаций в нерегулярные интервалы. Ожидаются промежутки в расписании.
+        public void AvailablePeriods_AppointmentsAtIrregularIntervals_GapsInSchedule() // Тест для случая консультаций в нерегулярные интервалы. Ожидаются промежутки в расписании.
         {
             TimeSpan[] startTimes = { new TimeSpan(10, 0, 0), new TimeSpan(12, 0, 0), new TimeSpan(13, 0, 0) };
             TimeSpan beginWorkingTime = new TimeSpan(9, 0, 0);
@@ -104,6 +111,7 @@ namespace TestLibrary
         
         
         [Test]
+        // Тест для случая консультации превышают рабочие часы. Ожидается отсутствие доступных периодов.
         public void AvailablePeriods_ConsultationTimeGreaterThanWorkingHours_NoAvailablePeriods()
         {
             TimeSpan[] startTimes = { new TimeSpan(9, 0, 0) };
@@ -117,6 +125,7 @@ namespace TestLibrary
         }
 
         [Test]
+        // Тест для случая, когда время консультации не равно времени начала консультации. Ожидается отсутствие доступных периодов.
         public void AvailablePeriods_СonsultationsIsNotEqualStartTime()
         {
             TimeSpan[] startTimes = { new TimeSpan(9, 0, 0) };
@@ -130,6 +139,7 @@ namespace TestLibrary
         }
         
         [Test]
+        // Тест для случая, когда время консультации превышает рабочие часы. Ожидается отсутствие доступных периодов.
         public void AvailablePeriods_ConsultationExceedsWorkingHours()
         {
             TimeSpan[] startTimes = { new TimeSpan(9, 0, 0) };
