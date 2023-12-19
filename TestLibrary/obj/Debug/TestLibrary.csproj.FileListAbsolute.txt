@@ -1,0 +1,11 @@
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\TestLibrary.dll
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\TestLibrary.pdb
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\nunit.framework.dll
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\SF2022UserNNLib.dll
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\SF2022UserNNLib.pdb
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\bin\Debug\nunit.framework.xml
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\obj\Debug\TestLibrary.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\obj\Debug\TestLibrary.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\obj\Debug\TestLibrary.csproj.CopyComplete
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\obj\Debug\TestLibrary.dll
+C:\Users\user\RiderProjects\ClassLibrary1\TestLibrary\obj\Debug\TestLibrary.pdb

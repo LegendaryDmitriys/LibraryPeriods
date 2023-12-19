@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CUsers_005Cuser_005CRiderProjects_005CClassLibrary1_005CSF2022UserNNLib_005Cbin_005CDebug_005CSF2022UserNNLib_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2da54b3b_002D8436_002D40cd_002Db5b7_002D321055217b58/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Tests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C0F053AC-9DC0-4114-9F65-502E818E7139::.NETFramework,Version=v4.8.1::TestLibrary.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ec9608f_002Df022_002D45c1_002D8eaf_002Dcaf27b98be50/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AvailablePeriods_AppointmentsAtIrregularIntervals_GapsInSchedule" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::C0F053AC-9DC0-4114-9F65-502E818E7139::.NETFramework,Version=v4.8.1::TestLibrary.Tests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>
